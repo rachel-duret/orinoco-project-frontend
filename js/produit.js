@@ -16,7 +16,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get('id');
 
 //send request pour demande produit information qui correspondre la page de produit
-let url =fetch('https://orinoco-project-api.herokuapp.com/api/teddies'+id);
+let url =fetch('https://orinoco-project-api.herokuapp.com/api/teddies/'+id);
 url.then((data) => {
     return data.json();  
 })
