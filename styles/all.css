@@ -1,0 +1,267 @@
+.bloc_page {
+  width: 980px;
+  height: auto;
+  margin: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+  background-color: #f3dfc6;
+}
+
+header #logo {
+  width: auto;
+  height: 50px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 30px;
+  font-size: larger;
+  font-weight: 600;
+}
+
+header ul li > a {
+  color: #181717;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  margin: auto;
+}
+
+.teddies__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.teddies__box > div {
+  margin: auto;
+}
+
+.teddies__box > p {
+  margin-right: 30px;
+}
+
+.teddies__box h2 {
+  font-family: Raleway;
+  font-size: larger;
+  font-weight: 600;
+}
+
+#navPanier span {
+  display: inline-block;
+  margin-left: 5px;
+  color: #eb7777;
+}
+
+.teddy h1 {
+  font-family: Raleway;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.teddy h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Raleway;
+  font-size: medium;
+  font-weight: 500;
+}
+
+select {
+  height: 30px;
+  margin-left: 5px;
+  background-color: #eb7777;
+  border: 1px solid #eb7777;
+}
+
+#addBtn {
+  height: 30px;
+  margin-left: 5px;
+  background-color: #eb7777;
+  border: 1px solid #eb7777;
+}
+
+#info-client {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border: 1px solid gray;
+}
+
+#info-client div {
+  border: 1px solid #f2f2f2;
+  height: 30px;
+  border-bottom: 1px dashed gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#info-client label {
+  font-weight: 600;
+  height: 100%;
+}
+
+#info-client input {
+  display: inline-block;
+  border: none;
+  width: 90%;
+  height: 90%;
+}
+
+#info-client .btnCmd {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  border: 1px solid bisque;
+  cursor: pointer;
+  background-color: #eb7777;
+}
+
+a {
+  display: inline-block;
+  margin-left: 30px;
+  color: blue;
+}
+
+img {
+  width: 280px;
+  height: auto;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+}
+
+#panier {
+  border: 1px solid gray;
+  margin-bottom: 30px;
+}
+
+#panier .teddy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 1px dashed gray;
+}
+
+#panier .teddy > .imgBox {
+  width: 150px;
+  height: auto;
+  text-align: left;
+}
+
+#panier .teddy > .imgBox > img {
+  width: 100%;
+  height: auto;
+}
+
+#panier .infoBox {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#panier .delBtn {
+  width: 80px;
+  height: 20px;
+  border: 1px solid #eb7777;
+  color: white;
+  cursor: pointer;
+  background-color: #eb7777;
+}
+
+#panier h3 {
+  text-align: end;
+  padding-right: 50px;
+}
+
+#panier h4 {
+  text-align: center;
+  font-size: larger;
+}
+
+#main {
+  text-align: center;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #f5cd9d;
+  width: 100%;
+  height: auto;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer li {
+  margin-top: 20px;
+  list-style: none;
+  font-size: larger;
+  font-weight: 500;
+}
+
+footer li > a {
+  color: black;
+  font-size: 500;
+}
+/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e7b638354.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="bloc__page">
+        <header>
+            <div>
+                <img src="./image/logo.png" alt="logo" id="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accuil</a></li>
+                    <li ><a href="panier.html" id="navPanier">Panier </a></li>
+                </ul>
+            </nav>
+          </header>
+
+          <main>
+            <div id="panier" class="panier">
+                   
+            </div>
+            <form id="info-client">
+                <div class="form-group">
+                    <label for="nom">Nom </label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre Nom" required>
+                </div>
+                <div>
+                    <label for="prenom">Prénom </label>
+                    <input type="text" id="prenom" name="prénom" placeholder="Votre Prénom" required>
+                </div>
+                <div>
+                    <label for="addresse">Addresse </label>
+                    <input type="text" id="addresse" name="addresse" placeholder="Votre Addresse" required>
+                </div>
+                <div>
+                    <label for="ville">Ville </label>
+                    <input type="text" id="ville" name="ville" placeholder="Votre Ville" required>
+                </div>
+                <div>
+                    <label for="email">Email </label>
+                    <input type="email" id="email" name="email" placeholder="Votre Email Addresse" required>
+                </div>
+                <input type="submit" value="Commande" class="btnCmd" id="submit"> 
+    
+            </form>
+            
+        </main>  
+        <footer>
+            <ul>
+              <li><a href="#">Contact nous</a></li>
+              <li><a href="#">Partenaire</a></li>
+              <li><a href="#">Nos activité</a></li>
+            </ul>
+          </footer> 
+    </div>
+   
+    <script src="./js/panier.js"></script>
+     
+    
+</body>
+</html>
